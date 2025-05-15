@@ -1,8 +1,4 @@
 library(tidyverse)
 
-# Load data
-df <- read_csv("~/Desktop/Research Project/cchs-analysis/2019-2020_CSV/Data_Donn,es/pumf_cchs.csv")
-
-
-# Preview data
-glimpse(df)
+df <- read_csv("2019-2020_CSV/data/pumf_cchs.csv")
+View(df)
